@@ -50,3 +50,17 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+
+```activity_main.xml```
+```xml
+<TextView
+        android:id="@+id/PID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="489dp" />
+
+```
