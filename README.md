@@ -24,18 +24,15 @@ package com.example.bs_hello_world
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-// import var type
-import android.widget.TextView
-//
-import android.os.Process
 
+import android.widget.TextView
+import android.os.Process
 
 class MainActivity : AppCompatActivity() {
 
     // spätere initialisierung
     // legt variable von typo TextView an
     private lateinit var view: TextView
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
